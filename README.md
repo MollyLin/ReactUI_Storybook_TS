@@ -26,9 +26,8 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-- vite 
-  - react: 18.2.0
-  - ts: 5.0.2
+- react: 18.2.0
+- ts: 5.0.2
 - Storybook: 7.2
 - Material UI: 5.14.4
 - Styled-Components: 6.0.7
