@@ -1,4 +1,5 @@
 import Button from './Button';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 export default {
   title: 'Input/MaterialButton',
@@ -8,21 +9,35 @@ export default {
 
 export const Default = {
   args: {
-    label: 'default',
+    label: 'Button',
     variant: 'contained',
   },
 };
 
 export const Outlined = {
   args: {
-    label: 'outlined',
+    label: 'Button',
     variant: 'outlined',
   },
 };
 
 export const Text = {
   args: {
-    label: 'text',
+    label: 'Button',
     variant: 'text',
+  },
+};
+
+export const DisabledButton = {
+  args: {
+    label: 'Button',
+    disabled: true,
+  },
+};
+
+export const StartIconButton = {
+  args: {
+    label: 'Button',
+    startIcon: <DeleteIcon />,
   },
 };
