@@ -1,10 +1,13 @@
 import { Button as MuiButton, ButtonProps as MuiButtonProps } from '@mui/material';
 
+// choose controls visible
+type ButtonBaseProps = Pick<MuiButtonProps, 'variant' | 'size' | 'color' | 'children' | 'startIcon' | 'endIcon' | 'disabled' >
+
 /**
- * Inheriting All Of The MUI's Button Props.
+ * Inheriting MUI's Button base props.
  * https://mui.com/material-ui/api/button/#main-content 
  * */  
-export interface ButtonProps extends MuiButtonProps {
+export interface ButtonProps extends ButtonBaseProps {
   label: string;
 }
 
