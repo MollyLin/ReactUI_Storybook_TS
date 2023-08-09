@@ -31,4 +31,4 @@ If you are developing a production application, we recommend updating the config
 - Framework: React 18.2.0, with functional components and hooks
 - Components: Material-UI 5.14.4
 - Styles: styled-components 6.0.7
-- Storybook 7.2 [View online storybook](https://64d32a05fa8bc4d87c4d56cc-avsyoginmw.chromatic.com/?path=/docs/configure-your-project--docs) 
+- Storybook 7.2 [View online storybook](https://64d32a05fa8bc4d87c4d56cc-aazvftxrpv.chromatic.com/?path=/docs/input-materialbutton--docs) 
